@@ -1,0 +1,59 @@
+# Student Registration Form Created By Jafar Ali
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="jafar.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <form action="https://formspree.io/f/xrbgzzan" method="POST">
+            
+            <label for="firstName"><b>Full Name:</b></label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName"><b>Father's Name:</b></label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone"><b>Phone Number:</b></label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dob"><b>Date of Birth:</b></label>
+            <input type="date" id="dob" name="dob" required>
+
+            <p class="gender"><b>Select Your Gender:</b></p>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <label for="course"><b>Course:</b></label>
+            <select id="course" name="course" required>
+                <option value="computer-science">Computer Science</option>
+                <option value="mechanical">Mechanical Engg.</option>
+                <option value="civil">Civil Engg.</option>
+                <option value="Electrical">Electrical Engg.</option>
+                <option value="nursing">Bsc.Nursing</option>
+            </select>
+
+            <button type="submit"><b>Register</b></button>
+
+                  
+         
+    </div>
+    
+    
+
+            
+        </form>
+    </div>
+</body>
+</html>
